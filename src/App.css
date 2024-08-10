@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.login-page{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right,rgb(14, 74, 240), rgb(238, 9, 5),rgb(6, 217, 24));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container{
+  width: 1200px;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow:  0 5px 5px rgba(0, 0, 0, 0.412);
+}
+
+.sign-in{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sign-up{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.transition{
+  width: 50%;
+  height: 100%;
+ background: linear-gradient(rgb(46, 10, 190),rgb(123, 99, 99),rgb(224, 133, 6));
+ position: absolute;
+ margin-left: 50%;
+}
+
+input{
+  width: 70%;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+}
+
+
+button{
+  width: 160px;
+  height: 45px;
+  background-color: rgb(46, 10, 190);
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.203);
+  color: white;
+}
+
+.description{
+  color: rgba(0, 0, 0, 0.486);
+}
+
+#sign{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: none;
+ margin-left: -40px;
+ text-decoration: underline;
+}
+
+p{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.486);
+}
+
+#reg{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+ margin-left: -40px;
+ text-decoration: underline;
+}
+
+.registration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
